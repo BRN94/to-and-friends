@@ -120,6 +120,35 @@ a {
         font-size: 1.25rem;
         letter-spacing: 2px; } }
 
+.c-heading {
+  color: #000000;
+  line-height: 1.2;
+  padding-bottom: 5px;
+  font-weight: 300; }
+  .c-heading--level1 {
+    font-size: 1.25rem; }
+    @media (min-width: 1200px) {
+      .c-heading--level1 {
+        font-size: 2.5rem; } }
+  .c-heading--level2 {
+    font-size: 1.5625rem; }
+    @media (min-width: 1200px) {
+      .c-heading--level2 {
+        font-size: 2.5rem; } }
+  .c-heading--level3 {
+    font-size: 0.875rem; }
+    @media (min-width: 1200px) {
+      .c-heading--level3 {
+        font-size: 1.25rem; } }
+  .c-heading--level4 {
+    font-size: 1.125rem; }
+  .c-heading--level5 {
+    font-size: 1.0625rem; }
+  .c-heading--upper {
+    text-transform: uppercase; }
+  .c-heading--white {
+    color: #FFFFFF; }
+
 .t-site-header {
   background-color: #FFFFFF; }
   @media (min-width: 1200px) {
@@ -167,6 +196,32 @@ a {
     @media (min-width: 800px) {
       .t-site-header__btn-divider {
         display: inline-block; } }
+
+.t-find-offer {
+  background-color: #FFFFFF;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+  @media (min-width: 1200px) {
+    .t-find-offer {
+      padding-bottom: 20px; } }
+  .t-find-offer__investment {
+    padding-bottom: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center; }
+    @media (min-width: 1200px) {
+      .t-find-offer__investment {
+        width: 60%;
+        margin-left: 20%; } }
+  .t-find-offer__text {
+    line-height: 20px; }
+    @media (min-width: 1200px) {
+      .t-find-offer__text {
+        line-height: 30px; } }
 
 .u-text-center {
   text-align: center; }
