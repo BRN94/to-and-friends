@@ -1,2 +1,2 @@
-# to-and-friends-test
+# to-and-friends
 Company recruitment task
