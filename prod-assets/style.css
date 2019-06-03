@@ -143,7 +143,14 @@ a {
   .c-heading--level4 {
     font-size: 1.125rem; }
   .c-heading--level5 {
-    font-size: 1.0625rem; }
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 5px; }
+    @media (min-width: 1200px) {
+      .c-heading--level5 {
+        font-size: 9.375rem;
+        font-weight: bold;
+        letter-spacing: 5px; } }
   .c-heading--upper {
     text-transform: uppercase; }
   .c-heading--white {
@@ -409,6 +416,65 @@ a {
     @media (min-width: 1200px) {
       .t-our-advantages__item {
         margin-bottom: 120px; } }
+
+.t-statistics {
+  overflow: auto;
+  display: flex;
+  text-align: center;
+  margin-top: 60px; }
+  .t-statistics__box {
+    display: block;
+    text-align: center; }
+    @media (min-width: 1200px) {
+      .t-statistics__box {
+        display: flex;
+        padding-left: 200px; } }
+  @media (min-width: 1200px) {
+    .t-statistics__content {
+      width: 75%; } }
+  .t-statistics__divider {
+    background-color: #000000;
+    height: 2px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 43%; }
+    @media (min-width: 800px) {
+      .t-statistics__divider {
+        margin-left: 46%; } }
+    @media (min-width: 1200px) {
+      .t-statistics__divider {
+        margin-left: 43%;
+        margin-top: -20px; } }
+
+.t-about-us {
+  align-items: center;
+  display: block; }
+  .t-about-us__content {
+    text-align: center;
+    display: block; }
+  .t-about-us__header {
+    margin-top: 40px;
+    margin-bottom: 20px; }
+  .t-about-us__title {
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 0.875rem; }
+  .t-about-us__divider {
+    background-color: #000000;
+    height: 2px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 45%; }
+    @media (min-width: 800px) {
+      .t-about-us__divider {
+        margin-left: 46%; } }
+    @media (min-width: 1200px) {
+      .t-about-us__divider {
+        margin-left: 48.5%; } }
 
 .u-text-center {
   text-align: center; }
