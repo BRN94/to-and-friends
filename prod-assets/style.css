@@ -540,6 +540,12 @@ a {
     font-size: 0.875rem;
     padding-left: 20px; }
 
+.t-site-footer {
+  padding: 40px;
+  font-size: 0.75rem; }
+  .t-site-footer__policy {
+    text-align: right; }
+
 .u-text-center {
   text-align: center; }
 
