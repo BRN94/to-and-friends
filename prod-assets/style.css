@@ -541,10 +541,25 @@ a {
     padding-left: 20px; }
 
 .t-site-footer {
-  padding: 40px;
-  font-size: 0.75rem; }
+  padding: 10px;
+  font-size: 0.75rem;
+  display: block;
+  text-align: center;
+  justify-content: center; }
+  @media (min-width: 1200px) {
+    .t-site-footer {
+      display: inline;
+      margin-top: 40px; } }
+  .t-site-footer__copy {
+    text-align: center; }
+    @media (min-width: 1200px) {
+      .t-site-footer__copy {
+        text-align: left; } }
   .t-site-footer__policy {
-    text-align: right; }
+    text-align: center; }
+    @media (min-width: 1200px) {
+      .t-site-footer__policy {
+        text-align: right; } }
 
 .u-text-center {
   text-align: center; }
