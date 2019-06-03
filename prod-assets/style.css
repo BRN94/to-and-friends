@@ -187,6 +187,17 @@ a {
       color: #d9d9d9;
       border: 2px solid #d9d9d9; }
 
+.c-icon-box {
+  text-align: center; }
+  .c-icon-box__image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; }
+  .c-icon-box__icon {
+    align-self: center; }
+  .c-icon-box__text {
+    margin-top: 15px; }
+
 .t-site-header {
   background-color: #FFFFFF; }
   @media (min-width: 1200px) {
@@ -385,6 +396,19 @@ a {
       .t-subscription__btn {
         justify-content: left;
         margin-left: 0px; } }
+
+.t-our-advantages {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 250px; }
+  @media (min-width: 1200px) {
+    .t-our-advantages {
+      padding-top: 150px; } }
+  .t-our-advantages__item {
+    margin-bottom: 40px; }
+    @media (min-width: 1200px) {
+      .t-our-advantages__item {
+        margin-bottom: 120px; } }
 
 .u-text-center {
   text-align: center; }
