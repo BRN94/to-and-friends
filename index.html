@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To & Friends</title>
     <link rel="stylesheet" href="prod-assets/style.css">
+    <!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- CountTo -->
+    <script src="js/jquery.countTo.js"></script>
 </head>
 <body>
 
@@ -160,4 +164,55 @@
                 </div>
             </div>
     </section>
+
+    <!-- Section statistics -->
+    <section class="t-about-us">
+        <div class="o-container">
+            <div class="o-row">
+                <div class="o-col t-about-us__content">
+                    <h6 class="c-heading c-heading--upper t-about-us__title">Więcej o nas</h6>
+                    <div class="t-about-us__divider"></div>
+                    <h2 class="c-heading c-heading--level2 t-about-us__header">Podobno cyferki sprzedają :)</h2>
+                    <p>All alone! Whether you like it or not, alone is something you'll be quite a lot!</p>
+                </div>       
+            </div>
+        </div>
+    </section>
+    <section class="t-statistics">
+        <div class="o-container">
+            <div class="o-row">
+                <div class="t-statistics__box">
+                        <div class="o-col o-col--lg33 t-statistics__item">
+                            <div class="t-statistics__content">
+                            <h4 class="c-heading c-heading--level5"><span class="timer" data-from="0" data-to="633" dat-speed="5000"></span></h4>
+                            <div class="t-statistics__divider"></div>
+                            <p class="c-heading c-heading--upper t-statistics__text">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                            </div>
+                        </div>
+                        <div class="o-col o-col--lg33 t-statistics__item">
+                            <div class="t-statistics__content">
+                            <h4 class="c-heading c-heading--level5"><span class="timer" data-from="0" data-to="495" dat-speed="5000"></span></h4>
+                            <div class="t-statistics__divider"></div>
+                            <p class="c-heading c-heading--upper t-statistics__text">adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat.</p>
+                            </div>
+                        </div>
+                        <div class="o-col o-col--lg33 t-statistics__item">
+                            <div class="t-statistics__content">
+                            <h4 class="c-heading c-heading--level5"><span class="timer" data-from="0" data-to="15" dat-speed="5000"></span></h4>
+                            <div class="t-statistics__divider"></div>
+                            <p class="c-heading c-heading--upper t-statistics__text">adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    $(document).ready(function(){
+        /* Count To */
+        $('.timer').countTo();
+    });
+    </script>
+</body>        
 </html>
